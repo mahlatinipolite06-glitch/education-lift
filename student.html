@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduLift - Students</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>EduLift</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="donors.html">Donors</a>
+        <a href="student.html">Students</a>
+    </nav>
+</header>
+
+<!-- PAGE HEADING -->
+<section class="page-heading">
+    <h2>Opportunities for Students</h2>
+
+    <p>
+        Your education shouldn't stop because of financial hardship.
+        EduLift helps ambitious students connect with donors ready to fund their dreams.
+    </p>
+
+    <a href="#register" class="btn">Apply for Support</a>
+</section>
+
+<!-- WHO WE ARE FOR STUDENTS -->
+<section class="section">
+    <h2>Who We Are & What We Do</h2>
+
+    <p style="max-width: 750px; margin: 0 auto 30px;">
+        EduLift is a dedicated educational support platform created to bridge the funding gap for students who have completed Grade 12 or equivalent studies and wish to pursue higher education, college, or university programs.
+    </p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>1. Complete the Form</h3>
+            <p>Tell us about your educational background, your chosen course, funding goals, and personal story.</p>
+        </div>
+
+        <div class="card">
+            <h3>2. Verification & Profile</h3>
+            <p>We review your details and create a verified profile so compassionate donors can discover your goals.</p>
+        </div>
+
+        <div class="card">
+            <h3>3. Receive Funding</h3>
+            <p>Donors sponsor your tuition and learning expenses directly, enabling you to focus on your education.</p>
+        </div>
+    </div>
+</section>
+
+<!-- WHO CAN APPLY -->
+<section class="section" style="background-color: #eef2f7;">
+    <h2>Who Can Apply?</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Graduating Students</h3>
+            <p>Students who have finished Grade 12 and need financial support to enroll in university or college.</p>
+        </div>
+
+        <div class="card">
+            <h3>Clear Academic Goals</h3>
+            <p>Dedicated individuals with passion for their chosen field of study (e.g. Science, Nursing, Technology, Arts).</p>
+        </div>
+
+        <div class="card">
+            <h3>Demonstrated Need</h3>
+            <p>Students who face genuine financial constraints that would otherwise prevent them from pursuing education.</p>
+        </div>
+    </div>
+</section>
+
+<!-- STUDENT REGISTRATION FORM -->
+<section id="register" class="section">
+    <h2>Student Registration</h2>
+
+    <p>Complete the form below to submit your application for financial support.</p>
+
+    <form id="studentForm">
+
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label>Country</label>
+        <input type="text" id="country" placeholder="Enter your country" required>
+
+        <label>Email Address</label>
+        <input type="email" id="studentEmail" placeholder="Enter your email" required>
+
+        <label>Course You Want to Study</label>
+        <input type="text" id="course" placeholder="e.g. Computer Science, Nursing, Law" required>
+
+        <label>Amount Needed</label>
+        <input type="number" id="amount" placeholder="Enter amount needed" min="1" required>
+
+        <label>Your Story</label>
+        <textarea id="story" placeholder="Explain your educational background and why you need support" required></textarea>
+
+        <button type="submit">Submit Application</button>
+
+        <p id="message"></p>
+
+    </form>
+</section>
+
+<footer>
+    <p>EduLift | Education Creates Opportunities</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

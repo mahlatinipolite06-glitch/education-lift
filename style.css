@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: #071b3a;
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: #e5b94b;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e5b94b;
+}
+
+/* Homepage */
+
+.home {
+    background-color: #102d59;
+    color: white;
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home p {
+    max-width: 650px;
+    margin: 0 auto 25px;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    background-color: #e5b94b;
+    color: #071b3a;
+    padding: 12px 20px;
+    margin: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+/* Sections */
+
+.section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    color: #071b3a;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+/* Page heading */
+
+.page-heading {
+    background-color: #102d59;
+    color: white;
+    text-align: center;
+    padding: 60px 10%;
+}
+
+/* Student profiles */
+
+.students {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 50px 10%;
+}
+
+.student-card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.student-card h3 {
+    color: #102d59;
+    margin-bottom: 15px;
+}
+
+/* Registration form */
+
+form {
+    max-width: 500px;
+    margin: 25px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    background-color: #071b3a;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e5b94b;
+    color: #071b3a;
+}
+
+#message,
+#donationMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: #071b3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
