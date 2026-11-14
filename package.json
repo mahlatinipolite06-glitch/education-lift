@@ -1,0 +1,18 @@
+{
+  "name": "edulift",
+  "version": "1.0.0",
+  "description": "EduLift - Fullstack Education Crowdfunding Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "education",
+    "edulift",
+    "fullstack",
+    "vercel"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
